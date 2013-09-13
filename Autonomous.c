@@ -1,8 +1,11 @@
+int readIR() {
+	int irValue = 0;
+	return irValue;
+}
 
 task main()
 {
-//Insert Driving Code Here
+	while (readIR() != 5) {
+
 }
-task readIR() {
-	//Insert IR Sensor Code Here
 }
